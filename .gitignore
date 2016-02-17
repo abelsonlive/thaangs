@@ -1,0 +1,6 @@
+*.DS_Store
+*.pyc
+*.db
+*.egg-info/
+build/
+dist/
