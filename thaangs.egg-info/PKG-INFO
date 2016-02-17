@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: thaangs
+Version: 0.0.0
+Summary: The future of news.
+Home-page: http://github.com/abelsonlive/thaangs
+Author: Brian Abelson
+Author-email: brian.abelson@voxmedia.com
+License: MIT
+Description: /Users/brianabelson/Projects/thaan.gs/README.md
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python

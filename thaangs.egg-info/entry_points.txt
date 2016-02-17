@@ -1,0 +1,3 @@
+[console_scripts]
+fetch-thaangs = thaangs:fetch_all
+
