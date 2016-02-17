@@ -104,7 +104,7 @@ class RSS(object):
       return {
           'url': u,
           'headline': self.get_title(entry),
-          'created_at': self.get_created(entry)
+          'created_at': utils.now()
       }
 
   def get_entries(self):

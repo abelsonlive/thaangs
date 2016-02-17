@@ -50,7 +50,7 @@ def _fetch_one(m):
   """
 
   for listicle in m.get_listicles():
-    db['listicles'].update(listicle, ['url'])
+    db['listicles'].upsert(listicle, ['url'])
     print json.dumps(listicle)
 
 if __name__ == '__main__':

@@ -4,7 +4,7 @@ REDIS_URL_TTL = os.getenv('THAANGS_URL_TTL', 60*60*24*3) # 3 days
 REDIS_ENTRY_TTL = os.getenv('THAANGS_ENTRY_TTL', 60*60*24*30) # 30 days
 REDIS_PREFIX = os.getenv('THAANGS_REDIS_PREFIX', 'thaangs')
 REDIS_URL = os.getenv('THAANGS_REDIS_URL', 'redis://localhost:6379/1')
-DATABASE_URL = os.getenv('THAANGS_REDIS_URL', 'sqlite:///test.db')
+DATABASE_URL = os.getenv('THAANGS_REDIS_URL', 'sqlite:////Users/brianabelson/Projects/thaan.gs/thaangs/test.db')
 FEED_WORKERS = os.getenv('THAANGS_FEED_WORKERS', 50)
 
 # a list of rss feeds to poll for listicles
